@@ -4,6 +4,8 @@ A Python project that utilizes Pyside6 for the GUI, numpy, skimage and pycuda fo
 
 It is planned to replace some CPU calculation with GPU ones by increasing the usage of pycuda.
 
+![Screenshot of the App](./screenshot.png?raw=true "Screenshot")
+
 ##Installation
 
 1. Clone the repository or download the ZIP file and extract it.
@@ -28,7 +30,7 @@ It is planned to replace some CPU calculation with GPU ones by increasing the us
 
     `python main.py`
 
-##Usage
+## Usage
 
 Upon running the application, the main GUI window will appear.
 Draw on the first widget using the provided drawing tools.
@@ -36,19 +38,20 @@ Click the "Connected Component Analysis" button to segment the drawing. The resu
 Click the "Oriented Bounding Boxes" button to estimate the contour using the OBB-Tree algorithm.
 The estimated contours will be drawn on top of the segmentation.
 
-##Algorithms
-###Connected Component Analysis
+## Algorithms
+
+### Connected Component Analysis
 
 Connected component analysis is a process of grouping pixels or voxels in an image based on their connectivity. In this project, it is used to segment the drawing into separate regions.
 
-###OBB-Tree Algorithm
+### OBB-Tree Algorithm
 
 The oriented bounding box (OBB) tree is a data structure used to represent the geometry of a 3D model. In this project, the OBB-Tree algorithm is used for contour estimation. It works by recursively subdividing a 3D object into smaller bounding boxes until the desired level of detail is achieved. The resulting contours are then extracted from the OBBs.
 
-##Credits
+## Credits
 
 This project was created by Ole Schumann. If you have any questions or suggestions, please feel free to create an issue.
 
-##License
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for more information.
