@@ -17,9 +17,11 @@ It is planned to replace some CPU calculation with GPU ones by increasing the us
     `cd obb-tree`
 
 3. Create a virtual environment
+
     `python -m venv obb_venv`
    
-4. Activate the virtual environment.
+4. Activate the virtual environment
+
     `source obb_venv/bin/activate`
 
 5. Install the required packages
