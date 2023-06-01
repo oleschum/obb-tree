@@ -6,7 +6,7 @@ It is planned to replace some CPU calculation with GPU ones by increasing the us
 
 ![Screenshot of the App](./screenshot.png?raw=true "Screenshot")
 
-##Installation
+## Installation
 
 1. Clone the repository or download the ZIP file and extract it.
 
